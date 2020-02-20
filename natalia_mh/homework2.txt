@@ -1,0 +1,4 @@
+crontab -e
+
+*/5 * * * * echo "I'm annoying script" > /dev/pts/1
+
